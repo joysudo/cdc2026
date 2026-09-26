@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Raw CFPB data — VERY large
+data/raw/
+
+# Local QGIS files
+*.qgz~
+*.qgs~
+
+# OS / editor
+.DS_Store
+.vscode/
