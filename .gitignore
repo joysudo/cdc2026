@@ -3,13 +3,19 @@
 __pycache__/
 *.pyc
 
-# Raw CFPB data — VERY large
+# Large/raw CFPB data
 data/raw/
+data/processed/cfpb_2025_cleaned.csv
 
-# Local QGIS files
-*.qgz~
+# Census geographic shapefile
+data/census/zcta/
+
+# QGIS temporary/lock files
 *.qgs~
+*.qgz~
+*.gpkg-wal
+*.gpkg-shm
 
-# OS / editor
+# OS/editor files
 .DS_Store
-.vscode/
+Thumbs.db
